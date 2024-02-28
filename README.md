@@ -1,2 +1,2 @@
 # nomad-sdk
-Nomad SDK
+The Nomad Media SDK offers a streamlined approach to interact with our API, providing a convenient alternative to directly accessing HTML paths. Available in both Python and JavaScript, our SDK empowers developers to efficiently communicate with our codebase through simple function calls, eliminating the complexity of manual API interactions. This section also includes postman collections for the different Nomad Media sections.
