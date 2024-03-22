@@ -4,7 +4,7 @@
 
 > 📘 Note
 > 
-> You can download PIP[here](https://pip.pypa.io/en/stable/installation/) and Python 3.12 [here](https://www.python.org/downloads/).
+> You can download PIP [here](https://pip.pypa.io/en/stable/installation/) and Python 3.12 [here](https://www.python.org/downloads/).
 
 > 📘 Note
 > 
