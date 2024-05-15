@@ -8,24 +8,30 @@
 
 ## Setup
 
-To use the Nomad SDK, download the npm nomad-media-npm.
+To use the Nomad SDK, download the @nomad-media npm. There are two versions, the full version which includes all of the Nomad-Media endpoints, and the public version which only includes the media endpoints.
 
+To install the full version, use the following command:
 ```shell
-npm install nomad-media-npm
+npm install @nomad-media/full
 ```
 
-Then to import it, you can either use the default version, or the debug version. The difference is that the debug version isn't compressed and has more documentation and named parameters.
+To install the public version, use the following command:
+```shell
+npm install @nomad-media/public
+```
+
+Then to import it, you can either use the default version, or the debug version. The difference is that the debug version isn't compressed and has more documentation and named parameters. Both full and public have a debug version. Currently the debug version's tooltips don't show up. This is an issue with npm.
 
 To use the default version use:
 
 ```javascript
-import NomadMediaSDK from "nomad-media-npm";
+import NomadMediaSDK from "@nomad-media/full";
 ```
 
 To use the debug version user:
 
 ```javascript
-import NomadMediaSDK from "nomad-media-npm/debug";
+import NomadMediaSDK from "@nomad-media/full/debug";
 ```
 
 To initialize the sdk, call the NomadMediaSDK class as shown below:
