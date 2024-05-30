@@ -51,6 +51,8 @@ apiType: Specifies whether the function you are trying to run is **admin** or **
 
 debugMode: Specifies when running functions, whether of not to print api call information.
 
+Place the config in a file called config.py and import it into your project.
+
 You are now ready to use the Pip in your project.
 
 > 📘 Make sure to keep your configuration options secret and do not share them publicly.

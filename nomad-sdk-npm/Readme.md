@@ -58,6 +58,8 @@ apiType: Specifies whether the function you are trying to run is **admin** or **
 
 debugMode: Specifies when running functions, whether of not to print api call information.
 
+Place the config in a file called config.js and import it into your project.
+
 You are now ready to use the SDK in your project.
 
 > 📘 Contact: Make sure to contact Nomad Media support to get username, password, and url for your enviromnent.
