@@ -57,6 +57,14 @@ You are now ready to use the Pip in your project.
 
 > 📘 Make sure to keep your configuration options secret and do not share them publicly.
 
+## Upgrading Pip
+
+- To upgrade the pip, use the following command:
+
+```shell
+pip install --upgrade nomad_media_pip
+```
+
 ## Nomad SDK References
 
 Scroll down to the Nomad SDK section.

@@ -66,6 +66,14 @@ You are now ready to use the SDK in your project.
 
 > 🚧 Make sure to keep your configuration options secret and do not share them publicly.
 
+## Upgrading NPM
+
+To upgrade the npm, use the following command:
+
+```shell
+npm update @nomad-media/full
+```
+
 ## Nomad SDK References
 
 An overview of all of the Nomad SDK methods. Includes prameter details for the methods. Scroll down to the Nomad SDK section.
