@@ -24,7 +24,7 @@ pip install nomad_media_pip
 - To import the sdk from the pip, import the class from nomad_media_pip.nomad_sdk.
 
 ```python
- from nomad_media_pip.nomad_sdk import Nomad_SDK
+ from nomad_media_pip.src.nomad_sdk import Nomad_SDK
 ```
 
 - To initialize the sdk, create the class as shown below.

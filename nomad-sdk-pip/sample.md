@@ -1,7 +1,7 @@
 Here is a simple search example that uses the Nomad Media SDK PIP.
 
 ```python
-from nomad_media_pip.nomad_sdk import Nomad_SDK
+from nomad_media_pip.src.nomad_sdk import Nomad_SDK
 
 config = {
     "username": "username",
