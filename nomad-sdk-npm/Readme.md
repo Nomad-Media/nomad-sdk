@@ -50,13 +50,16 @@ const config = {
     "password": "password",
     "serviceApiUrl": "serverApiUrl",
     "apiType": "admin",
-    "debugMode": true
+    "debugMode": true,
+    "singleton": false
 };
 ```
 
 apiType: Specifies whether the function you are trying to run is **admin** or **portal**.
 
 debugMode: Specifies when running functions, whether of not to print api call information.
+
+singleton: Whether or not to only create one class instance.
 
 Place the config in a file called config.js and import it into your project.
 
