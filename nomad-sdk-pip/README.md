@@ -43,13 +43,16 @@ config = {
     "password": "password",
     "serviceApiUrl": "serverApiUrl",
     "apiType": "admin",
-    "debugMode": True
+    "debugMode": "debugMode",
+    "singleton": "singleton"
 }
 ```
 
 apiType: Specifies whether the function you are trying to run is **admin** or **portal**.
 
-debugMode: Specifies when running functions, whether of not to print api call information.
+debugMode: Boolean that specifies when running functions, whether of not to print api call information.
+
+singleton: Whether or not to only create one class instance.
 
 Place the config in a file called config.py and import it into your project.
 
