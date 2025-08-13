@@ -40,6 +40,10 @@ To initialize the sdk, call the NomadMediaSDK class as shown below:
 const SDK = NomadMediaSDK(config);
 ```
 
+## Logging in
+
+To log in to the sdk, in the config, enter the username/email of your user. Then enter your api key if you are using an api key, or your password.
+
 ## Configure Environmental Variables
 
 Follow this format for the config:
@@ -48,6 +52,7 @@ Follow this format for the config:
 const config = {
     "username": "username",
     "password": "password",
+    "apiKey": "apiKey",
     "serviceApiUrl": "serverApiUrl",
     "apiType": "admin",
     "debugMode": true,

@@ -33,6 +33,10 @@ pip install nomad_media_pip
  nomad_sdk = Nomad_SDK(config)
 ```
 
+## Logging in
+
+To log in to the sdk, in the config, enter the username/email of your user. Then enter your api key if you are using an api key, or your password.
+
 ## Configure Environmental Variables
 
 - The format of the config is:
@@ -41,6 +45,7 @@ pip install nomad_media_pip
 config = {
     "username": "username",
     "password": "password",
+    "apiKey": "apiKey",
     "serviceApiUrl": "serverApiUrl",
     "apiType": "admin",
     "debugMode": "debugMode",
