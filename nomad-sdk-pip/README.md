@@ -49,15 +49,24 @@ config = {
     "serviceApiUrl": "serverApiUrl",
     "apiType": "admin",
     "debugMode": "debugMode",
-    "singleton": "singleton"
+    "singleton": "singleton",
+    "sso-provider": "sso-provider",
+    "sso-code": "sso-code",
+    "sso-state": "sso-state",
+    "sso-session-state": "sso-session-state",
+    "sso-redirect-url": "sso-redirect-url"
 }
 ```
+
+apiKey: Can be used in place of password for api key authentication.
 
 apiType: Specifies whether the function you are trying to run is **admin** or **portal**.
 
 debugMode: Boolean that specifies when running functions, whether of not to print api call information.
 
 singleton: Whether or not to only create one class instance.
+
+sso fields: Can be used in place of username and password. Provide either the provider, code, state, and session state or provide the redirect url. (beta)
 
 Place the config in a file called config.py and import it into your project.
 

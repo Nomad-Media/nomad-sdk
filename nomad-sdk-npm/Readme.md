@@ -60,6 +60,8 @@ const config = {
 };
 ```
 
+apiKey: Can be used in place of password for api key authentication.
+
 apiType: Specifies whether the function you are trying to run is **admin** or **portal**.
 
 debugMode: Specifies when running functions, whether of not to print api call information.
