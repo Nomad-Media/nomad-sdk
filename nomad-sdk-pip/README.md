@@ -66,7 +66,7 @@ debugMode: Boolean that specifies when running functions, whether of not to prin
 
 singleton: Whether or not to only create one class instance.
 
-sso fields: Can be used in place of username and password. Provide either the provider, code, state, and session state or provide the redirect url. (beta)
+sso fields: Can be used in place of username and password. Provide either the provider, code, state, and session state or provide the redirect url.
 
 Place the config in a file called config.py and import it into your project.
 
