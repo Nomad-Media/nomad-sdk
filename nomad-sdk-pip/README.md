@@ -35,7 +35,10 @@ pip install nomad_media_pip
 
 ## Logging in
 
-To log in to the sdk, in the config, enter the username/email of your user. Then enter your api key if you are using an api key, or your password.
+To log in to the SDK, you can use one of two authentication methods:
+
+1. **Username/Email with Password or API Key**: Enter your username/email and either your password or API key in the config.
+2. **SSO Credentials**: Use Single Sign-On by providing either the SSO provider details (provider, code, state, session state) or the SSO redirect URL.
 
 ## Configure Environmental Variables
 
