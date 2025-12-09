@@ -51,15 +51,15 @@ To log in to the SDK, you can use one of two authentication methods:
 
 Follow this format for the config:
 
-```
+``` javascript
 const config = {
     "username": "username",
     "password": "password",
     "apiKey": "apiKey",
     "serviceApiUrl": "serverApiUrl",
     "apiType": "admin",
-    "debugMode": true,
-    "singleton": false,
+    "debugMode": "debugMode",
+    "singleton": "singleton",
     "sso-provider": "sso-provider",
     "sso-code": "sso-code",
     "sso-state": "sso-state",
@@ -70,15 +70,13 @@ const config = {
 
 apiKey: Can be used in place of password for api key authentication.
 
-apiType: Specifies whether the function you are trying to run is **admin** or **portal**.
+apiType (required): Specifies whether the function you are trying to run is **admin** or **portal**.
 
-debugMode: Specifies when running functions, whether of not to print api call information.
+debugMode: Specifies when running functions, whether of not to print api call information. False by default
 
-singleton: Whether or not to only create one class instance.
+singleton: Whether or not to only create one class instance. True by default.
 
 sso fields: Can be used in place of username and password. Provide either the provider, code, state, and session state or provide the redirect url.
-
-Place the config in a file called config.js and import it into your project.
 
 You are now ready to use the SDK in your project.
 

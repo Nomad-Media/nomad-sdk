@@ -63,15 +63,13 @@ config = {
 
 apiKey: Can be used in place of password for api key authentication.
 
-apiType: Specifies whether the function you are trying to run is **admin** or **portal**.
+apiType (required): Specifies whether the function you are trying to run is **admin** or **portal**.
 
-debugMode: Boolean that specifies when running functions, whether of not to print api call information.
+debugMode: Boolean that specifies when running functions, whether of not to print api call information. False by default.
 
-singleton: Whether or not to only create one class instance.
+singleton: Whether or not to only create one class instance. True by default.
 
 sso fields: Can be used in place of username and password. Provide either the provider, code, state, and session state or provide the redirect url.
-
-Place the config in a file called config.py and import it into your project.
 
 You are now ready to use the Pip in your project.
 
