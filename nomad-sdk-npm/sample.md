@@ -11,7 +11,7 @@ const config = {
     "debugMode": true
 };
 
-const NomadSDK = newMediaSDK(config);
+const NomadSDK = new NomadMediaSDK(config);
 
 async function main() {
 
